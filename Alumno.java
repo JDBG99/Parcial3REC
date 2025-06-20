@@ -11,23 +11,23 @@ public class Alumno {
         setNota3(n3);
     }
 
-    private double promedio() {
+    public double promedio() {
         return (nota1 + nota2 + nota3) / 3;
     }
 
-    private String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    private void setNombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-  private double getNota1() {
+  public double getNota1() {
         return nota1;
     }
 
-    private void setNota1(double nota1) {
+    public void setNota1(double nota1) {
         if (nota1 >= 0 && nota1 <= 10) {
             this.nota1 = nota1;
         } else {
@@ -35,11 +35,11 @@ public class Alumno {
         }
     }
 
-    private double getNota2() {
+    public double getNota2() {
         return nota2;
     }
 
-    private void setNota2(double nota2) {
+    public void setNota2(double nota2) {
         if (nota2 >= 0 && nota2 <= 10) {
             this.nota2 = nota2;
         } else {
@@ -47,11 +47,11 @@ public class Alumno {
         }
     }
 
-    private double getNota3() {
+    public double getNota3() {
         return nota3;
     }
 
-    private void setNota3(double nota3) {
+    public void setNota3(double nota3) {
         if (nota3 >= 0 && nota3 <= 10) {
             this.nota3 = nota3;
         } else {
