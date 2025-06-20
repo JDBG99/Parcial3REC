@@ -1,3 +1,3 @@
-# Gestión de Alumnos
+# Gestion de alumnos
 
-Autor: Farcas
+Autor: Jose David Blanco Goaga
